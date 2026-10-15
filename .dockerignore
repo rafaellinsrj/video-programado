@@ -1,0 +1,5 @@
+node_modules
+.git
+saida
+*.mp4
+.env

@@ -1,0 +1,47 @@
+{
+  "name": "video-programado",
+  "version": "1.0.0",
+  "description": "Crie vídeos de motion graphics narrados só com código: um servidor MCP que transforma um roteiro em MP4 com voz, animação sincronizada por palavra, trilha e efeitos.",
+  "license": "MIT",
+  "author": "Rafael Lins Gaspar",
+  "type": "module",
+  "bin": {
+    "video-programado": "bin/video-programado.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "public",
+    "exemplos",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "mcp": "node bin/video-programado.mjs mcp",
+    "custo": "node bin/video-programado.mjs custo exemplos/exemplo.json",
+    "exemplo": "node bin/video-programado.mjs criar exemplos/exemplo.json",
+    "studio": "remotion studio src/video/index.ts",
+    "check": "tsc --noEmit",
+    "test": "node --test \"test/*.test.mjs\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.31.0",
+    "@remotion/bundler": "4.0.528",
+    "@remotion/cli": "4.0.528",
+    "@remotion/renderer": "4.0.528",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.528",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "24.3.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

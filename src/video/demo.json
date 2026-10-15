@@ -1,0 +1,622 @@
+{
+ "fps": 30,
+ "largura": 1080,
+ "altura": 1920,
+ "duracao": 30.119,
+ "velocidade": 1.3,
+ "idioma": "pt",
+ "cor": "#e8622c",
+ "marca": "Video Programado",
+ "usuario": "@videoprogramado",
+ "musica": false,
+ "efeitosLigados": true,
+ "cenas": [
+  {
+   "indice": 0,
+   "audio": null,
+   "visual": {
+    "tipo": "titulo",
+    "texto": "O culpado pode ser o *DNS*.",
+    "apoio": "um site que não abre"
+   },
+   "inicio": 0.1,
+   "falaInicio": 0.25,
+   "falaFim": 4.558,
+   "palavras": [
+    {
+     "w": "Você",
+     "t": 0.25,
+     "f": 0.519
+    },
+    {
+     "w": "digita",
+     "t": 0.558,
+     "f": 0.827
+    },
+    {
+     "w": "o",
+     "t": 0.865,
+     "f": 1.135
+    },
+    {
+     "w": "nome",
+     "t": 1.173,
+     "f": 1.442
+    },
+    {
+     "w": "de",
+     "t": 1.481,
+     "f": 1.75
+    },
+    {
+     "w": "um",
+     "t": 1.788,
+     "f": 2.058
+    },
+    {
+     "w": "site",
+     "t": 2.096,
+     "f": 2.365
+    },
+    {
+     "w": "e",
+     "t": 2.404,
+     "f": 2.673
+    },
+    {
+     "w": "ele",
+     "t": 2.712,
+     "f": 2.981
+    },
+    {
+     "w": "não",
+     "t": 3.019,
+     "f": 3.288
+    },
+    {
+     "w": "abre.",
+     "t": 3.327,
+     "f": 3.596
+    },
+    {
+     "w": "Sabe",
+     "t": 3.635,
+     "f": 3.904
+    },
+    {
+     "w": "por",
+     "t": 3.942,
+     "f": 4.212
+    },
+    {
+     "w": "quê?",
+     "t": 4.25,
+     "f": 4.519
+    }
+   ],
+   "fim": 4.708,
+   "marcos": {
+    "palavras": [
+     {
+      "texto": "O",
+      "destaque": false,
+      "t": 0.25
+     },
+     {
+      "texto": "culpado",
+      "destaque": false,
+      "t": 0.53
+     },
+     {
+      "texto": "pode",
+      "destaque": false,
+      "t": 0.81
+     },
+     {
+      "texto": "ser",
+      "destaque": false,
+      "t": 1.09
+     },
+     {
+      "texto": "o",
+      "destaque": false,
+      "t": 1.37
+     },
+     {
+      "texto": "DNS.",
+      "destaque": true,
+      "t": 4.127
+     }
+    ]
+   }
+  },
+  {
+   "indice": 1,
+   "audio": null,
+   "visual": {
+    "tipo": "terminal",
+    "titulo": "zsh",
+    "linhas": [
+     "$ dig meusite.com.br +short",
+     "> 104.21.33.10"
+    ],
+    "legenda": "perguntando ao DNS"
+   },
+   "inicio": 4.708,
+   "falaInicio": 4.858,
+   "falaFim": 10.704,
+   "palavras": [
+    {
+     "w": "O",
+     "t": 4.858,
+     "f": 5.127
+    },
+    {
+     "w": "computador",
+     "t": 5.165,
+     "f": 5.435
+    },
+    {
+     "w": "não",
+     "t": 5.473,
+     "f": 5.742
+    },
+    {
+     "w": "entende",
+     "t": 5.781,
+     "f": 6.05
+    },
+    {
+     "w": "nomes.",
+     "t": 6.088,
+     "f": 6.358
+    },
+    {
+     "w": "Ele",
+     "t": 6.396,
+     "f": 6.665
+    },
+    {
+     "w": "precisa",
+     "t": 6.704,
+     "f": 6.973
+    },
+    {
+     "w": "do",
+     "t": 7.012,
+     "f": 7.281
+    },
+    {
+     "w": "endereço",
+     "t": 7.319,
+     "f": 7.588
+    },
+    {
+     "w": "numérico",
+     "t": 7.627,
+     "f": 7.896
+    },
+    {
+     "w": "do",
+     "t": 7.935,
+     "f": 8.204
+    },
+    {
+     "w": "site,",
+     "t": 8.242,
+     "f": 8.512
+    },
+    {
+     "w": "e",
+     "t": 8.55,
+     "f": 8.819
+    },
+    {
+     "w": "quem",
+     "t": 8.858,
+     "f": 9.127
+    },
+    {
+     "w": "responde",
+     "t": 9.165,
+     "f": 9.435
+    },
+    {
+     "w": "isso",
+     "t": 9.473,
+     "f": 9.742
+    },
+    {
+     "w": "é",
+     "t": 9.781,
+     "f": 10.05
+    },
+    {
+     "w": "o",
+     "t": 10.088,
+     "f": 10.358
+    },
+    {
+     "w": "DNS.",
+     "t": 10.396,
+     "f": 10.665
+    }
+   ],
+   "fim": 10.854,
+   "marcos": {
+    "linhas": [
+     {
+      "texto": "$ dig meusite.com.br +short",
+      "t": 4.958
+     },
+     {
+      "texto": "> 104.21.33.10",
+      "t": 5.678
+     }
+    ]
+   }
+  },
+  {
+   "indice": 2,
+   "audio": null,
+   "visual": {
+    "tipo": "lista",
+    "titulo": "Como uma agenda",
+    "itens": [
+     "Você procura o nome",
+     "A agenda devolve o número",
+     "A ligação acontece"
+    ]
+   },
+   "inicio": 10.854,
+   "falaInicio": 11.004,
+   "falaFim": 15.004,
+   "palavras": [
+    {
+     "w": "Pense",
+     "t": 11.004,
+     "f": 11.273
+    },
+    {
+     "w": "numa",
+     "t": 11.312,
+     "f": 11.581
+    },
+    {
+     "w": "agenda",
+     "t": 11.619,
+     "f": 11.888
+    },
+    {
+     "w": "de",
+     "t": 11.927,
+     "f": 12.196
+    },
+    {
+     "w": "contatos:",
+     "t": 12.235,
+     "f": 12.504
+    },
+    {
+     "w": "você",
+     "t": 12.542,
+     "f": 12.812
+    },
+    {
+     "w": "procura",
+     "t": 12.85,
+     "f": 13.119
+    },
+    {
+     "w": "o",
+     "t": 13.158,
+     "f": 13.427
+    },
+    {
+     "w": "nome",
+     "t": 13.465,
+     "f": 13.735
+    },
+    {
+     "w": "e",
+     "t": 13.773,
+     "f": 14.042
+    },
+    {
+     "w": "encontra",
+     "t": 14.081,
+     "f": 14.35
+    },
+    {
+     "w": "o",
+     "t": 14.388,
+     "f": 14.658
+    },
+    {
+     "w": "número.",
+     "t": 14.696,
+     "f": 14.965
+    }
+   ],
+   "fim": 15.154,
+   "marcos": {
+    "itens": [
+     {
+      "texto": "Você procura o nome",
+      "t": 12.542
+     },
+     {
+      "texto": "A agenda devolve o número",
+      "t": 13.004
+     },
+     {
+      "texto": "A ligação acontece",
+      "t": 14.337
+     }
+    ]
+   }
+  },
+  {
+   "indice": 3,
+   "audio": null,
+   "visual": {
+    "tipo": "numero",
+    "valor": 300,
+    "prefixo": "",
+    "sufixo": " s",
+    "rotulo": "tempo médio de cache (TTL)"
+   },
+   "inicio": 15.154,
+   "falaInicio": 15.304,
+   "falaFim": 20.227,
+   "palavras": [
+    {
+     "w": "Cada",
+     "t": 15.304,
+     "f": 15.573
+    },
+    {
+     "w": "resposta",
+     "t": 15.612,
+     "f": 15.881
+    },
+    {
+     "w": "fica",
+     "t": 15.919,
+     "f": 16.188
+    },
+    {
+     "w": "guardada",
+     "t": 16.227,
+     "f": 16.496
+    },
+    {
+     "w": "por",
+     "t": 16.535,
+     "f": 16.804
+    },
+    {
+     "w": "um",
+     "t": 16.842,
+     "f": 17.112
+    },
+    {
+     "w": "tempo,",
+     "t": 17.15,
+     "f": 17.419
+    },
+    {
+     "w": "em",
+     "t": 17.458,
+     "f": 17.727
+    },
+    {
+     "w": "média",
+     "t": 17.765,
+     "f": 18.035
+    },
+    {
+     "w": "trezentos",
+     "t": 18.073,
+     "f": 18.342
+    },
+    {
+     "w": "segundos,",
+     "t": 18.381,
+     "f": 18.65
+    },
+    {
+     "w": "para",
+     "t": 18.688,
+     "f": 18.958
+    },
+    {
+     "w": "não",
+     "t": 18.996,
+     "f": 19.265
+    },
+    {
+     "w": "perguntar",
+     "t": 19.304,
+     "f": 19.573
+    },
+    {
+     "w": "de",
+     "t": 19.612,
+     "f": 19.881
+    },
+    {
+     "w": "novo.",
+     "t": 19.919,
+     "f": 20.188
+    }
+   ],
+   "fim": 20.377,
+   "marcos": {
+    "fimContagem": 18.258
+   }
+  },
+  {
+   "indice": 4,
+   "audio": null,
+   "visual": {
+    "tipo": "virada",
+    "texto": "SEM DNS, SEM SITE."
+   },
+   "inicio": 20.377,
+   "falaInicio": 20.527,
+   "falaFim": 24.835,
+   "palavras": [
+    {
+     "w": "Se",
+     "t": 20.527,
+     "f": 20.796
+    },
+    {
+     "w": "o",
+     "t": 20.835,
+     "f": 21.104
+    },
+    {
+     "w": "DNS",
+     "t": 21.142,
+     "f": 21.412
+    },
+    {
+     "w": "falha,",
+     "t": 21.45,
+     "f": 21.719
+    },
+    {
+     "w": "o",
+     "t": 21.758,
+     "f": 22.027
+    },
+    {
+     "w": "site",
+     "t": 22.065,
+     "f": 22.335
+    },
+    {
+     "w": "está",
+     "t": 22.373,
+     "f": 22.642
+    },
+    {
+     "w": "no",
+     "t": 22.681,
+     "f": 22.95
+    },
+    {
+     "w": "ar,",
+     "t": 22.988,
+     "f": 23.258
+    },
+    {
+     "w": "mas",
+     "t": 23.296,
+     "f": 23.565
+    },
+    {
+     "w": "ninguém",
+     "t": 23.604,
+     "f": 23.873
+    },
+    {
+     "w": "encontra",
+     "t": 23.912,
+     "f": 24.181
+    },
+    {
+     "w": "o",
+     "t": 24.219,
+     "f": 24.488
+    },
+    {
+     "w": "caminho.",
+     "t": 24.527,
+     "f": 24.796
+    }
+   ],
+   "fim": 24.985,
+   "marcos": {
+    "entrada": 20.427
+   }
+  },
+  {
+   "indice": 5,
+   "audio": null,
+   "visual": {
+    "tipo": "gancho",
+    "palavra": "DNS",
+    "chamada": "e receba o guia no direct"
+   },
+   "inicio": 24.985,
+   "falaInicio": 25.135,
+   "falaFim": 28.519,
+   "palavras": [
+    {
+     "w": "Comenta",
+     "t": 25.135,
+     "f": 25.404
+    },
+    {
+     "w": "DNS",
+     "t": 25.442,
+     "f": 25.712
+    },
+    {
+     "w": "que",
+     "t": 25.75,
+     "f": 26.019
+    },
+    {
+     "w": "eu",
+     "t": 26.058,
+     "f": 26.327
+    },
+    {
+     "w": "te",
+     "t": 26.365,
+     "f": 26.635
+    },
+    {
+     "w": "mando",
+     "t": 26.673,
+     "f": 26.942
+    },
+    {
+     "w": "o",
+     "t": 26.981,
+     "f": 27.25
+    },
+    {
+     "w": "guia",
+     "t": 27.288,
+     "f": 27.558
+    },
+    {
+     "w": "completo",
+     "t": 27.596,
+     "f": 27.865
+    },
+    {
+     "w": "no",
+     "t": 27.904,
+     "f": 28.173
+    },
+    {
+     "w": "direct.",
+     "t": 28.212,
+     "f": 28.481
+    }
+   ],
+   "fim": 30.119,
+   "marcos": {
+    "palavraT": 25.442,
+    "chamadaT": 27.504
+   }
+  }
+ ],
+ "efeitos": []
+}

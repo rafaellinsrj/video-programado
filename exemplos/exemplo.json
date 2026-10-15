@@ -1,0 +1,12 @@
+{
+  "titulo": "O que é DNS",
+  "opcoes": {"voz": "echo", "velocidade": 1.3, "idioma": "pt", "cor": "#e8622c", "marca": "Video Programado", "usuario": "@videoprogramado"},
+  "cenas": [
+    {"fala": "Você digita o nome de um site e ele não abre. Sabe por quê?", "visual": {"tipo": "titulo", "apoio": "um site que não abre", "texto": "O culpado pode ser o *DNS*."}},
+    {"fala": "O computador não entende nomes. Ele precisa do endereço numérico do site, e quem responde isso é o DNS.", "visual": {"tipo": "terminal", "titulo": "zsh", "legenda": "perguntando ao DNS", "linhas": ["$ dig meusite.com.br +short", "> 104.21.33.10"]}},
+    {"fala": "Pense numa agenda de contatos: você procura o nome e encontra o número.", "visual": {"tipo": "lista", "titulo": "Como uma agenda", "itens": ["Você procura o nome", "A agenda devolve o número", "A ligação acontece"]}},
+    {"fala": "Cada resposta fica guardada por um tempo, em média trezentos segundos, para não perguntar de novo.", "visual": {"tipo": "numero", "valor": 300, "prefixo": "", "sufixo": " s", "rotulo": "tempo médio de cache (TTL)"}},
+    {"fala": "Se o DNS falha, o site está no ar, mas ninguém encontra o caminho.", "visual": {"tipo": "virada", "texto": "SEM DNS, SEM SITE."}},
+    {"fala": "Comenta DNS que eu te mando o guia completo no direct.", "visual": {"tipo": "gancho", "palavra": "DNS", "chamada": "e receba o guia no direct"}}
+  ]
+}
